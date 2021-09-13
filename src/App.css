@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://picsum.photos/500/330"); /* The image used */
+  background-color: #4d6275; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.flex{
+  display:flex;
+  flex-direction: column;
+  width:30%;
+  align-items: center;
+  margin-left: 35%;
+  position:fixed;
+  top:15%;
+}
+
+.container{
+margin:0 auto
+}
+
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 80px;
+  background: rgba(241, 241, 241, 0.664);
+  border-radius: 5px;
+  /* width:50%; */
+  font-size: 2.1em;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+#author{
+  font-size: 1.2em;
+  color:rgb(204, 204, 204)
+}
