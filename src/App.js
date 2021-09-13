@@ -29,8 +29,8 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      quote: "",
-      author: "",
+      quote: null,
+      author: null,
 
     }
 

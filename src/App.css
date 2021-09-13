@@ -5,14 +5,15 @@ body {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  box-sizing: border-box;
 }
 
 .flex{
   display:flex;
   flex-direction: column;
-  width:30%;
+  width:50%;
   align-items: center;
-  margin-left: 35%;
+  margin-left: 25%;
   position:fixed;
   top:15%;
 }
@@ -28,10 +29,10 @@ blockquote {
 
 blockquote p {
   padding: 80px;
-  background: rgba(241, 241, 241, 0.664);
+  background: rgba(241, 241, 241, 0.42);
   border-radius: 5px;
-  /* width:50%; */
-  font-size: 1.1em;
+  font-size: 3.3em;
+  font-family: 'Allison', cursive;
 }
 
 blockquote p::before {
