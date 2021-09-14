@@ -1,11 +1,13 @@
 body {
-  background-image: url("https://picsum.photos/500/330");
+  user-select: none;
+  background-image:  url("https://picsum.photos/500/330");
   background-color: #4d6275;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  /* background-blend-mode: luminosity; */
 }
 
 .flex {
