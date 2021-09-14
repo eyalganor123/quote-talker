@@ -4,11 +4,10 @@
 .buttons-container{
   width:100vw;
   display: flex;
-  flex-direction: column;
   position: fixed;
   bottom:0;
  margin-bottom: 7em;
- align-items: center;
+ justify-content: center;
 }
 button {
   width: 7em;
