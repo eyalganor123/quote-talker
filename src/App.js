@@ -64,7 +64,7 @@ class App extends Component {
           </blockquote>
           
         </figure>
-        <Buttons handleSpeak={handleSpeak} handleNext={this.handleNext}/>
+        <Buttons handleSpeak={handleSpeak} handleNext={this.handleNext} browser={this.state.browser}/>
      
       </div>
     )
