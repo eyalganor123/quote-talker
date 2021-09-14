@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/quote-talker/static/css/main.130206e9.chunk.css",
-    "main.js": "/quote-talker/static/js/main.f0681575.chunk.js",
-    "main.js.map": "/quote-talker/static/js/main.f0681575.chunk.js.map",
+    "main.css": "/quote-talker/static/css/main.00d53d72.chunk.css",
+    "main.js": "/quote-talker/static/js/main.3ff864f8.chunk.js",
+    "main.js.map": "/quote-talker/static/js/main.3ff864f8.chunk.js.map",
     "runtime-main.js": "/quote-talker/static/js/runtime-main.e0e9bf8f.js",
     "runtime-main.js.map": "/quote-talker/static/js/runtime-main.e0e9bf8f.js.map",
     "static/js/2.4916a2ba.chunk.js": "/quote-talker/static/js/2.4916a2ba.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.85ab8a90.chunk.js": "/quote-talker/static/js/3.85ab8a90.chunk.js",
     "static/js/3.85ab8a90.chunk.js.map": "/quote-talker/static/js/3.85ab8a90.chunk.js.map",
     "index.html": "/quote-talker/index.html",
-    "static/css/main.130206e9.chunk.css.map": "/quote-talker/static/css/main.130206e9.chunk.css.map",
+    "static/css/main.00d53d72.chunk.css.map": "/quote-talker/static/css/main.00d53d72.chunk.css.map",
     "static/js/2.4916a2ba.chunk.js.LICENSE.txt": "/quote-talker/static/js/2.4916a2ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e0e9bf8f.js",
     "static/js/2.4916a2ba.chunk.js",
-    "static/css/main.130206e9.chunk.css",
-    "static/js/main.f0681575.chunk.js"
+    "static/css/main.00d53d72.chunk.css",
+    "static/js/main.3ff864f8.chunk.js"
   ]
 }
