@@ -5,7 +5,7 @@ export default function Buttons({ handleSpeak, handleNext, browser }) {
 
   if (browser) {
     return (
-      <div>
+      <div className="buttons-container">
         <button onClick={handleSpeak}>speak</button>
         <button onClick={handleNext}>next</button>
       </div>
