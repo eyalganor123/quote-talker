@@ -4,7 +4,13 @@ import Buttons from './Buttons'
 
 import './App.css';
 const speech = new Speech();
-
+let supported = true;
+if(speech.hasBrowserSupport()) { // returns a boolean
+    console.log("speech synthesis supported")
+   console.log(supported)
+  }else{
+  supported = false
+}
 
 speech.init({
   volume: 0.5,
@@ -31,7 +37,7 @@ class App extends Component {
     this.state = {
       quote: null,
       author: null,
-
+      browser: supported
     }
 
   }
@@ -42,6 +48,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    console.log(this.state.browser)
     fetch("https://api.quotable.io/random").then(res => res.json()).then(text => this.setState({ quote: text.content, author: text.author }))
   }
 
