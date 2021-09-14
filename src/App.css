@@ -1,26 +1,25 @@
 body {
-  background-image: url("https://picsum.photos/500/330"); /* The image used */
-  background-color: #4d6275; /* Used if the image is unavailable */
-  height: 100vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("https://picsum.photos/500/330");
+  background-color: #4d6275;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-sizing: border-box;
 }
 
-.flex{
-  display:flex;
+.flex {
+  display: flex;
   flex-direction: column;
-  width:50%;
+  width: 50%;
   align-items: center;
   margin-left: 25%;
-  position:fixed;
+  position: fixed;
 }
 
-.container{
-margin:0 auto
+.container {
+  margin: 0 auto
 }
-
 
 blockquote {
   margin: 0;
@@ -42,18 +41,17 @@ blockquote p::after {
   content: '\201D';
 }
 
-#author{
+#author {
   font-size: 1.2em;
-  color:rgb(204, 204, 204)
+  color: rgb(120, 245, 191)
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   blockquote p {
-    /* padding: 30px; */
     background: rgba(241, 241, 241, 0.42);
     border-radius: 5px;
     font-size: 2.3em;
     font-family: 'Allison', cursive;
-    line-height:.5em
+    line-height: 1.5em
   }
 }

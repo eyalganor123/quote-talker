@@ -7,15 +7,21 @@ button {
   margin: 2em;
   margin-top: 10px;
   border-radius: 10px;
-  padding:1em;
-  
+  padding: 1em;
+  cursor: pointer;
+  background-color: bisque
 }
-@media only screen and (max-width: 600px){
+
+button:hover {
+  background-color: rgb(215, 178, 129);
+}
+
+@media only screen and (max-width: 600px) {
   button {
     width: 200px;
-    margin: .3em;
+    margin-left: 2.3em;
     /* margin-top: 10px; */
     /* border-radius: 10px; */
-    padding:0 2em;
+    padding: 0 2em;
   }
 }

@@ -53,7 +53,7 @@ class App extends Component {
         <figure className="container">
           <blockquote cite="https://www.huxley.net/bnw/four.html">
             <p id="h2">{this.state.quote}</p>
-            <figcaption id="author">—{this.state.author}</figcaption>
+            <figcaption id="author">- {this.state.author}</figcaption>
           </blockquote>
           
         </figure>
