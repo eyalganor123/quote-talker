@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
 }
-.buttons-container{
-  width:100vw;
+
+.buttons-container {
+  width: 100vw;
   display: flex;
   position: fixed;
-  bottom:0;
- margin-bottom: 7em;
- justify-content: center;
+  bottom: 0;
+  margin-bottom: 7em;
+  justify-content: center;
 }
+
 button {
   width: 7em;
   margin-top: 10px;
@@ -24,17 +26,14 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .buttons-container{
-  
-   margin-bottom: 2em;
- 
+  .buttons-container {
+    margin-bottom: 2em;
+    justify-content: start;
+    flex-direction: column;
   }
-
   button {
-    width: 8em;
-    margin-left: 2em;
-    /* margin-top: 10px; */
-    /* border-radius: 10px; */
-    padding: 1em 2em;
+    width: 5em;
+    margin-left: 0em;
+    padding: 1em 1em;
   }
 }
