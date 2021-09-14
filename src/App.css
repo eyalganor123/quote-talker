@@ -15,7 +15,6 @@ body {
   align-items: center;
   margin-left: 25%;
   position:fixed;
-  top:15%;
 }
 
 .container{
@@ -28,7 +27,7 @@ blockquote {
 }
 
 blockquote p {
-  padding: 80px;
+  padding: 30px;
   background: rgba(241, 241, 241, 0.42);
   border-radius: 5px;
   font-size: 3.3em;
@@ -46,4 +45,15 @@ blockquote p::after {
 #author{
   font-size: 1.2em;
   color:rgb(204, 204, 204)
+}
+
+@media only screen and (max-width: 600px){
+  blockquote p {
+    /* padding: 30px; */
+    background: rgba(241, 241, 241, 0.42);
+    border-radius: 5px;
+    font-size: 2.3em;
+    font-family: 'Allison', cursive;
+    line-height:.5em
+  }
 }
